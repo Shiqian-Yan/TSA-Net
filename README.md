@@ -32,7 +32,7 @@ Change dataset to "coco" or 'vg' if you want to train on COCO or Visual Genome.
 
 If you want to evlauate the detection performance of a pre-trained vgg16 model on pascal_voc test set, simply run
 ```
-python test_net.py --dataset pascal_voc --net vgg16 \
+python test_net.py --dataset pascal_voc --net res101 \
                    --checksession $SESSION --checkepoch $EPOCH --checkpoint $CHECKPOINT \
                    --cuda
 ```
