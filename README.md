@@ -1,4 +1,4 @@
-# A *Faster* Pytorch Implementation of Faster R-CNN
+# A *Faster* Pytorch Implementation of Two-Stream Attention Faster R-CNN
 
 ## Introduction
 
